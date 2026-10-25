@@ -1,0 +1,14 @@
+node_modules/
+.env
+.env.*
+!.env.example
+dist/
+coverage/
+*.log
+.DS_Store
+apps/api/.local-export-private.pem
+apps/api/.local-export-public.pem
+apps/offline-verifier/.local-export-public.pem
+apps/offline-verifier/data/*.sqlite
+apps/offline-verifier/data/*.sqlite-shm
+apps/offline-verifier/data/*.sqlite-wal
